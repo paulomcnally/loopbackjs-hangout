@@ -23,5 +23,9 @@
   "Role": {
     "dataSource": "pg",
     "public": false
+  },
+  "Sms": {
+    "dataSource": "pg",
+    "public": true
   }
 }
