@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "pg": {
+    "host": "localhost",
+    "database": "demo",
+    "username": "postgres",
+    "password": "NodeRules",
+    "name": "pg",
+    "connector": "postgresql"
   }
 }
