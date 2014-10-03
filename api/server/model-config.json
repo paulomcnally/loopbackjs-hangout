@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models"
+    ]
+  },
+  "User": {
+    "dataSource": "pg"
+  },
+  "AccessToken": {
+    "dataSource": "pg",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "pg",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "pg",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "pg",
+    "public": false
+  },
+  "Sms": {
+    "dataSource": "pg",
+    "public": true
+  }
+}
